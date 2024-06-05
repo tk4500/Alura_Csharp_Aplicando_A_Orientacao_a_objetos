@@ -19,6 +19,16 @@
             Console.WriteLine("Adquira o Plano Plus+");
         }
     }
+
+    public void EscreveDisponivel(bool value)
+    {
+        disponivel = value;
+    }
+
+    public bool LeDisponivel()
+    {
+        return disponivel;
+    }
     public void ExibirMusica()
     {
         Console.WriteLine($"Esta é a Música {nome} do artista {artista}");
