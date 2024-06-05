@@ -12,4 +12,5 @@ musica2.duracao = 367;
 musica2.disponivel = false;
 
 musica1.ExibirFichaTecnica();
+musica1.ExibirMusica();
 musica2.ExibirFichaTecnica();
