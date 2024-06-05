@@ -19,7 +19,7 @@ class Album
         {
             Console.WriteLine($"Música : {musica.Nome}");
         }
-        Console.WriteLine($"Para ouvir o álbum inteiro você precisa de {DuracaoTotal} segundos");
+        Console.WriteLine($"\nPara ouvir o álbum inteiro você precisa de {DuracaoTotal} segundos");
 
     }
 }
