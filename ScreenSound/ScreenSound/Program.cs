@@ -4,6 +4,7 @@ albumDoQueen.Nome = "A night at the opera";
 Musica musica1 = new Musica();
 musica1.Nome = "Love of my life";
 musica1.Duracao = 213;
+musica1.Artista = "Barões da Pisadinha";
 
 Musica musica2 = new Musica();
 musica2.Nome = "Bohemian Rhapsody";
