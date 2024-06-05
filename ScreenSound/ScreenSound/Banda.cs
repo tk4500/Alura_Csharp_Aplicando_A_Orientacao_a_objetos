@@ -10,7 +10,7 @@
 
     public void ExibirDiscografia()
     {
-        Console.WriteLine($"Discografia da banda{Nome}");
+        Console.WriteLine($"Discografia da banda {Nome}");
         foreach (Album album in albums)
         {
             Console.WriteLine($"Álbum: {album.Nome} ({album.DuracaoTotal})");
