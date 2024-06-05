@@ -5,7 +5,8 @@
     public int Duracao { get; set; }
     public bool Disponivel { get; set; }
 
-    public string NomeCompleto { get; set; }
+    public string DescricaoResumida => 
+        $"A musica {Nome} pertence à banda {Artista}";
 
     public void ExibirFichaTecnica()
     {
@@ -21,8 +22,5 @@
             Console.WriteLine("Adquira o Plano Plus+");
         }
     }
-    public void ExibirMusica()
-    {
-        Console.WriteLine($"Esta é a Música {Nome} do artista {Artista}");
-    }
+
 }
